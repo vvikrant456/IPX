@@ -1,0 +1,9 @@
+footer {
+  padding-top: 5rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  cursor: pointer;
+}/*# sourceMappingURL=footer.css.map */

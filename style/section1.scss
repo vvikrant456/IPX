@@ -1,0 +1,64 @@
+$border: 1px solid rgba(255, 255, 255, 0.5);
+
+.section-1 {
+  border: $border;
+  margin-top: 3rem;
+  // color: white;
+}
+
+.txt {
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  border-bottom: $border;
+}
+
+.q-n-a {
+  padding: 1rem 3rem;
+}
+
+.ques-block {
+  display: grid;
+  padding: 2rem 0;
+  grid-template-columns: 70% 20%;
+  column-gap: 5%;
+  justify-content: space-between;
+}
+
+.border-bottom {
+  border-bottom: $border;
+}
+
+.toggle-button {
+  color: white;
+  font-size: 2rem;
+  border: none;
+  background: none;
+}
+
+.question {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.answer {
+  font-weight: normal;
+  padding-top: 1rem;
+  line-height: 1.8rem;
+  font-size: 1.8rem;
+}
+
+.section-4-container {
+  padding: 3rem;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  column-gap: 3%;
+  .blank {
+    border: $border;
+  }
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.last-section {
+  margin-top: 3rem;
+}
+.last-section .upper {
+  display: flex;
+}
+.last-section .card-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 2%;
+       column-gap: 2%;
+  justify-content: space-between;
+}
+.last-section .card-container .card {
+  padding: 2rem;
+  width: 28rem;
+  height: 33rem;
+  background-color: rgba(34, 34, 34, 0.5);
+  border-radius: 1.5rem;
+}
+.last-section .card-container .card .card-img {
+  overflow: hidden;
+  border-radius: 2rem;
+}
+.last-section .card-container .card .row {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.last-section .card-container .card .price-buy {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+}
+.last-section .card-container .card .price-buy .price {
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+.last-section .button-div {
+  margin: 3rem 0 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-section .button-div .view-project {
+  color: white;
+  padding: 1rem 4rem;
+  font-size: 1.4rem;
+  background: none;
+  text-decoration: none;
+  border-radius: 3rem;
+  border: 1px solid white;
+  transition: all 0.1s ease-in-out;
+}
+.last-section .button-div .view-project:hover {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  transform: translate(-2%, -2%);
+}/*# sourceMappingURL=lastsection.css.map */
